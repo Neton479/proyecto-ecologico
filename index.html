@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>🌎 Proyecto Ecológico - Cuidemos el Planeta</title>
+  
+  <link rel="stylesheet" href="estilos.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Raleway&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>🌿 Proyecto Cobachito Ecológico</h1>
+    <nav>
+      <a href="#inicio">🏠 Inicio</a>
+      <a href="#reciclaje">♻ Reciclaje</a>
+      <a href="#cuidado">🌎 Cuidado</a>
+      <a href="#registro">📝 Registro</a>
+      <a href="#usuarios">👥 Usuarios</a>
+      
+    </nav>
+  </header>
+
+  <section id="inicio" class="seccion">
+    <h2>Bienvenido</h2>  <img src="cobachito.jpg" alt="inicio" class= "icono"/>
+    <p>Descubre cómo puedes ayudar al planeta a través de pequeños cambios. Este sitio está hecho para enseñarte la importancia del reciclaje y cómo vivir de manera más sostenible.</p>
+
+    <img src="planeta 2.jpg" alt="Planeta" class="icono"/>
+  </section>
+
+  <section id="reciclaje" class="seccion">
+    <h2>♻ ¿Por qué Reciclar?</h2>
+    <img src="reciclaje.jpg" alt="Reciclaje" class="icono" />
+    <p>Reciclar significa transformar residuos en nuevos productos, reduciendo el uso de recursos naturales. Estos son algunos beneficios:</p>
+    <ul>
+      <li>🌱 Disminuye la contaminación del aire y del agua.</li>
+      <li>🌍 Reduce la tala de árboles y la extracción de minerales.</li>
+      <li>💡 Ahorra energía en la producción de nuevos materiales.</li>
+      <li>🛍 Promueve una economía circular y sostenible.</li>
+    </ul>
+  </section>
+
+  <section id="cuidado" class="seccion">
+    <h2>🌎 Cómo Cuidar el Mundo</h2>
+    <img src="planeta.jpg" alt="Planeta" class="icono" />
+    <p>El planeta Tierra es nuestro hogar, y con acciones sencillas podemos protegerlo. Aquí tienes algunas recomendaciones:</p>
+    <ul>
+      <li>🚰 Ahorra agua: cierra la llave mientras te cepillas los dientes.</li>
+      <li>💡 Usa focos LED y apaga las luces cuando no las uses.</li>
+      <li>🛒 Elige productos reciclables o biodegradables.</li>
+      <li>🚮 Separa tu basura en orgánica, inorgánica y reciclable.</li>
+      <li>🌳 Siembra árboles y cuida las áreas verdes.</li>
+    </ul>
+  </section>
+
+  <section id="registro" class="seccion">
+    <h2>📝 Regístrate y Forma Parte del Cambio</h2>
+    <form id="registroForm">
+      <input type="text" id="nombre" placeholder="Tu nombre" required />
+      <input type="file" id="imagen" accept="image/*" required />
+      <button type="submit">Registrar</button>
+    </form>
+  </section>
+
+  <section id="usuarios" class="seccion">
+    <h2>👥 Usuarios Registrados</h2>
+    <img src="usuarios.jpg" alt="Usuarios" class="icono" />
+    <div id="listaUsuarios"></div>
+  </section>
+
+  <footer>
+    <p>🌱 Sitio educativo para promover el reciclaje y la conciencia ambiental | Proyecto 2025</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
